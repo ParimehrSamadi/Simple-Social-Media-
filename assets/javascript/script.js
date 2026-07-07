@@ -114,8 +114,9 @@ function first(){
   }
 
 }
-if (window.location.pathname === '/index.html') {
-  first(); 
+
+if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+    first(); 
 }
 export function users(a,b,c,d,e){
   let Div1=document.createElement('div')
