@@ -115,7 +115,7 @@ function first(){
 
 }
 
-if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+if (window.location.pathname === 'https://simple-social-media-sand.vercel.app/' || window.location.pathname === '/index.html') {
     first(); 
 }
 export function users(a,b,c,d,e){
